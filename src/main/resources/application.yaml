@@ -20,7 +20,7 @@ spring:
 #      name: from Config Server: Vault
 #      password: from Config Server: Vault
 
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
+#eureka:
+#  client:
+#    register-with-eureka: from Config Server: Git
+#    fetch-registry: from Config Server: Git
