@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  eureka-server:
+    image: ghcr.io/helpet-inc/eureka-server:0.0.1-SNAPSHOT
+    container_name: eureka-server
+    ports:
+      - '8761:8761'
+    env_file:
+      - .eureka-server.env
