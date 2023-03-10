@@ -15,6 +15,10 @@ spring:
       password: ${CONFIG_SERVER_PASSWORD}
   config:
     import: optional:configserver:${CONFIG_URI}
+#  security:
+#    user:
+#      name: from Config Server: Vault
+#      password: from Config Server: Vault
 
 eureka:
   client:
