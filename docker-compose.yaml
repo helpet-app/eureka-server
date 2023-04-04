@@ -8,3 +8,4 @@ services:
       - '8761:8761'
     env_file:
       - .eureka-server.env
+    restart: always
